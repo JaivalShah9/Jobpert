@@ -1,0 +1,98 @@
+<head>
+
+    <title>JOBPERT</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ==== NAVBAR ==== -->
+    <header>
+        <nav class="navbar container">
+            <div class="logo">
+                <img src="../assets/job.png" alt="logo">
+                <a href="#">JOBPERT</a>
+            </div>
+
+            <button class="toggle_btn" id="toggle_btn">
+                <i class="ri-menu-line"></i>
+            </button>
+
+            <div class="nav_menu" id="nav_menu">
+                <button class="close_btn" id="close_btn">
+                    <i class="ri-close-line"></i>
+                </button>
+                <ul class="nav_menu_list">
+                    <li class="nav_menu_item"><a href="#" class="nav_menu_item_link active">home</a></li>
+                    <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">about</a></li>
+                    <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">help</a></li>
+                    <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">contact us</a></li>
+                    <li class="nav_menu_item"><button class="register_btn">register</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <br><br>
+
+    <!-- ==== HERO ==== -->
+    <main class="hero">
+        <section class="wrapper">
+            <div class="hero_content">
+                <div class="hero_img_wrapper">
+                    <div class="hero_img">
+
+                    </div>
+                </div>
+                <div class="hero_about_wrapper">
+                    <div class="hero_about">
+                        <h2 class="title" > Welcome to Jobpert</h2>
+                         <br>
+                        <div class="main_title">
+                            <h5>
+                               I understand that any employment by Jobpert is conditioned upon positive responses from my references, bonding eligibility, continued adherence to Jobpert policies and procedures, applicable rules and regulations and job performance satisfactory at all times to Jobpert.
+
+I consent to take any pre or post-employment examinations as may be required by Jobpert or its representative, and release Jobpert from any liability that may arise from such examination.
+<br>
+<br>
+
+I authorize an inquiry to be made on the information contained on this application. Former employers and officials of education institutes, named on this application are authorized to give information about me and I release them from all liability for issuing such information.
+
+I hereby attest and warrant that all my answers on this application as well as on all forms completed in conjunction with my employment are true and accurate. 
+                                <br> <span class="author_name">JOBPERT by Jaival</span>
+                            </h5>
+                        </div>
+                        <div class="tagline">
+                            <p>I agree to the terms and conditions
+                                <input type="checkbox">
+                            </p>
+
+                        </div>
+                        <div class="btn_wrapper">
+                            <button type="submit" class="btn btn-primary" routerLink="/second">
+                                Submit</button>
+                            <!-- <button class="btn_watch">Watch the jobpert video <i class="ri-play-line"></i></button> -->
+                        </div>
+                        
+                        <!-- <span class="form-inline"> -->
+                            <!-- <select class="form-control" #selectedLang (change)="switchLang(selectedLang.value)">
+                                <option *ngFor="let language of translate.getLangs()"
+                                [value]="language"
+                                [selected]= "language === translate.currentLang">
+                            {{language}}
+                        </option> 
+                        </select>
+                            
+                        </span>
+                        <label> {{'title' | translate}} </label> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ==== MAIN.JS ==== -->
+    <script src="./js/main.js" defer></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+</body>
